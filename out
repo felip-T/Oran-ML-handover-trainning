@@ -1,0 +1,594 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Starting configuration: 30
+UE 0 position: 446.989:41.1888:1.5
+UE 1 position: 93.9324:350.926:1.5
+UE 2 position: 282.17:108.238:1.5
+UE 3 position: 362.008:157.251:1.5
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 4 RNTI 1
+0.0252143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 1 RNTI 2
+0.0252143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 3 RNTI 3
+0.100214 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 2 RNTI 4
+220.05 660.12 468.523 307.049 
+HANDOVER nodeID: 1
+----->3 1 2 1
+371.136 190.113 451.904 187.646 
+HANDOVER nodeID: 2
+----->4 1 4 2
+132.396 495.177 429.408 149.707 
+188.791 481.687 372.874 129.751 
+HANDOVER nodeID: 4
+----->3 1 1 4
+----->HANDOVER 4.00421 2 4 1
+----->HANDOVER 4.01621 1 3 1
+----->HANDOVER 4.15421 4 3 2
+225.989 666.522 470.731 313.441 
+369.549 191.829 455.546 188.715 
+FAIL nodeID: 2
+130.227 501.887 431.988 156.063 
+HANDOVER nodeID: 3
+----->2 1 3 3
+187.317 475.931 373.982 124.045 
+FAIL nodeID: 4
+----->HANDOVER 5.01021 3 2 1
+226.24 665.457 469.183 312.384 
+HANDOVER nodeID: 1
+----->2 3 1 1
+375.744 185.52 451.627 190.887 
+HANDOVER nodeID: 2
+----->2 4 1 2
+127.884 508.739 435.146 162.693 
+184.412 474.29 376.849 122.455 
+HANDOVER nodeID: 4
+----->4 3 2 4
+----->HANDOVER 6.00421 2 2 3
+----->HANDOVER 6.00421 4 4 2
+----->HANDOVER 6.05821 1 2 2
+223.807 660.812 465.827 307.752 
+381.992 179.318 447.805 193.339 
+FAIL nodeID: 2
+125.871 515.59 438.39 169.341 
+HANDOVER nodeID: 3
+----->3 2 1 3
+179.53 477.768 381.799 125.991 
+FAIL nodeID: 4
+----->HANDOVER 7.13021 3 3 3
+221.445 656.168 462.493 303.122 
+HANDOVER nodeID: 1
+----->3 2 2 1
+388.292 173.234 444.083 196.062 
+HANDOVER nodeID: 2
+----->1 2 3 2
+124.206 522.442 441.716 176.006 
+FAIL nodeID: 3
+174.674 481.28 386.76 129.649 
+HANDOVER nodeID: 4
+----->2 4 2 4
+----->HANDOVER 8.01021 1 3 4
+----->HANDOVER 8.01621 4 2 4
+----->HANDOVER 8.03421 2 1 5
+219.157 651.524 459.182 298.492 
+FAIL nodeID: 1
+389.404 172.411 440.401 194.904 
+FAIL nodeID: 2
+128.424 523.365 438.144 175.973 
+HANDOVER nodeID: 3
+----->2 3 3 3
+169.847 484.826 391.73 133.42 
+FAIL nodeID: 4
+----->HANDOVER 9.02221 3 2 5
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Starting configuration: 1
+UE 0 position: 281.567:284.708:1.5
+UE 1 position: 386.465:78.3662:1.5
+UE 2 position: 376.075:303.61:1.5
+UE 3 position: 295.4:105.244:1.5
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 2 RNTI 2
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 4 RNTI 1
+0.105214 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 1 RNTI 4
+0.523214 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 3 RNTI 9
+276.527 344.259 329.72 35.9305 
+HANDOVER nodeID: 1
+----->3 1 4 1
+144.404 573.044 450.548 222.529 
+HANDOVER nodeID: 2
+----->4 1 2 2
+337.557 408.087 229.346 134.187 
+95.8203 500.502 467.406 167.582 
+HANDOVER nodeID: 4
+----->4 1 1 4
+----->HANDOVER 4.00421 2 4 1
+----->HANDOVER 4.03421 4 4 2
+----->HANDOVER 4.05221 1 3 1
+273.724 342.828 334.669 33.1085 
+FAIL nodeID: 1
+139.535 573.338 454.999 223.428 
+340.384 402.5 228.291 133.085 
+HANDOVER nodeID: 3
+----->4 1 9 3
+88.8987 503.003 474.799 172.664 
+FAIL nodeID: 4
+----->HANDOVER 5.00421 3 4 3
+272.971 349.158 329.893 34.5221 
+HANDOVER nodeID: 1
+----->1 3 1 1
+134.686 573.679 459.465 224.441 
+343.293 396.924 227.39 132.245 
+FAIL nodeID: 3
+86.5555 507.607 476.685 176.69 
+----->HANDOVER 6.07021 1 1 10
+272.428 355.539 325.226 37.4643 
+FAIL nodeID: 1
+130.222 574.59 464.02 226.044 
+347.258 397.319 223.371 135.954 
+============================================================================================
+Device set to : NVIDIA GeForce MX110
+============================================================================================
+ns3ai_utils: Experiment initialized
+ns3ai_utils: Running ns-3 with:  ./ns3 run model3 -- --use-train=true --sim-time=10 --seed=30
+obs_dim: 7
+action_dim: ()
+action:  2
+obs: [  1.           1.          17.129      371.13625888 190.11313497
+ 451.90394891 187.6462286 ], reward: 0.4508032202720642, done: False, info: {'info': 'm_name'}
+reward: 0.4508032202720642
+action:  3
+obs: [1.00000000e+00 4.01606426e-03 1.19237000e+01 1.32395745e+02
+ 4.95177228e+02 4.29407875e+02 1.49707112e+02], reward: 0.4508032202720642, done: False, info: {'info': 'm_name'}
+reward: 0.4508032202720642
+action:  0
+obs: [  1.           0.77911647   2.00991    188.7912898  481.6866796
+ 372.87351915 129.75074258], reward: 0.4508032202720642, done: False, info: {'info': 'm_name'}
+reward: 0.4508032202720642
+action:  2
+obs: [1.00000000e+00 4.24000000e-01 9.28646000e+00 2.25988881e+02
+ 6.66521802e+02 4.70730743e+02 3.13440861e+02], reward: 0.4339999854564667, done: False, info: {'info': 'm_name'}
+reward: 0.4339999854564667
+action:  0
+obs: [  1.           1.          17.3703     369.54900082 191.82925619
+ 455.54608486 188.71514709], reward: 0.4339999854564667, done: False, info: {'info': 'm_name'}
+reward: 0.4339999854564667
+action:  1
+obs: [  1.           0.          12.0387     130.22662426 501.88749296
+ 431.98761347 156.06272866], reward: 0.4339999854564667, done: False, info: {'info': 'm_name'}
+reward: 0.4339999854564667
+action:  1
+obs: [  1.           0.84         2.07318    187.31732974 475.93080679
+ 373.98243503 124.04490981], reward: 0.4339999854564667, done: False, info: {'info': 'm_name'}
+reward: 0.4339999854564667
+action:  3
+obs: [  3.           1.           9.28646    226.23986982 665.45704557
+ 469.1833986  312.38401784], reward: 0.47200000286102295, done: False, info: {'info': 'm_name'}
+reward: 0.47200000286102295
+action:  1
+obs: [4.00000000e+00 1.00000000e-01 3.36415000e+00 3.75743793e+02
+ 1.85520390e+02 4.51626896e+02 1.90887051e+02], reward: 0.47200000286102295, done: False, info: {'info': 'm_name'}
+reward: 0.47200000286102295
+action:  1
+obs: [1.00000000e+00 1.20000000e-02 1.20387000e+01 1.27883551e+02
+ 5.08738865e+02 4.35146254e+02 1.62692885e+02], reward: 0.47200000286102295, done: False, info: {'info': 'm_name'}
+reward: 0.47200000286102295
+action:  0
+obs: [  3.           1.           2.07318    184.41159816 474.28953541
+ 376.84887189 122.45500267], reward: 0.47200000286102295, done: False, info: {'info': 'm_name'}
+reward: 0.47200000286102295
+action:  3
+obs: [  3.           1.          -1.32299    223.80659829 660.81242241
+ 465.82666013 307.75246619], reward: 0.21899999678134918, done: False, info: {'info': 'm_name'}
+reward: 0.21899999678134918
+action:  2
+obs: [ 4.00000000e+00  1.24000000e-01 -1.33143000e+00  3.81992350e+02
+  1.79318124e+02  4.47804974e+02  1.93339465e+02], reward: 0.21899999678134918, done: False, info: {'info': 'm_name'}
+reward: 0.21899999678134918
+action:  0
+obs: [  2.           1.           9.28646    125.87124763 515.59048611
+ 438.38951401 169.34141351], reward: 0.21899999678134918, done: False, info: {'info': 'm_name'}
+reward: 0.21899999678134918
+action:  2
+obs: [  3.           1.           1.59482    179.52993582 477.76790759
+ 381.79920407 125.99087413], reward: 0.21899999678134918, done: False, info: {'info': 'm_name'}
+reward: 0.21899999678134918
+action:  0
+obs: [  2.           1.          -1.32299    221.44487188 656.16808732
+ 462.49261201 303.12193814], reward: 0.4050000011920929, done: False, info: {'info': 'm_name'}
+reward: 0.4050000011920929
+action:  2
+obs: [ 2.00000000e+00  3.76000000e-01 -1.33143000e+00  3.88292075e+02
+  1.73233909e+02  4.44082828e+02  1.96061863e+02], reward: 0.4050000011920929, done: False, info: {'info': 'm_name'}
+reward: 0.4050000011920929
+action:  0
+obs: [  2.           1.         -16.1729     124.20579332 522.44234679
+ 441.7155299  176.0062309 ], reward: 0.4050000011920929, done: False, info: {'info': 'm_name'}
+reward: 0.4050000011920929
+action:  0
+obs: [4.00000000e+00 4.00000000e-03 1.59482000e+00 1.74674409e+02
+ 4.81280142e+02 3.86759594e+02 1.29649390e+02], reward: 0.4050000011920929, done: False, info: {'info': 'm_name'}
+reward: 0.4050000011920929
+action:  1
+obs: [  2.           1.         -16.1729     219.15700359 651.52404646
+ 459.18174847 298.49248135], reward: 0.49900001287460327, done: False, info: {'info': 'm_name'}
+reward: 0.49900001287460327
+action:  3
+obs: [  2.           0.          -8.73338    389.40402199 172.41111908
+ 440.40132524 194.90376212], reward: 0.49900001287460327, done: False, info: {'info': 'm_name'}
+reward: 0.49900001287460327
+action:  0
+obs: [  3.           1.          10.4882     128.42366828 523.36524414
+ 438.14365553 175.97323575], reward: 0.49900001287460327, done: False, info: {'info': 'm_name'}
+reward: 0.49900001287460327
+action:  1
+obs: [ 4.00000000e+00  4.00000000e-03 -1.33143000e+00  1.69847261e+02
+  4.84825502e+02  3.91729659e+02  1.33420460e+02], reward: 0.49900001287460327, done: False, info: {'info': 'm_name'}
+reward: 0.49900001287460327
+action:  0
+obs: [ 4.00000000e+00  4.00000000e-03 -1.33143000e+00  1.69847261e+02
+  4.84825502e+02  3.91729659e+02  1.33420460e+02], reward: 0.49900001287460327, done: True, info: {'info': 'm_name'}
+reward: 0.49900001287460327
+breaking
+updating
+Episode: 0, total reward: 9.967409670352936
+ns3ai_utils: Running ns-3 with:  ./ns3 run model3
+action:  2
+obs: [1.00000000e+00 4.01606426e-03 2.18694000e+01 1.44403914e+02
+ 5.73043634e+02 4.50548015e+02 2.22529493e+02], reward: 0.49799197912216187, done: False, info: {'info': 'm_name'}
+reward: 0.49799197912216187
+action:  3
+obs: [  1.           1.           6.32579    337.55735212 408.08705828
+ 229.3460684  134.18699468], reward: 0.49799197912216187, done: False, info: {'info': 'm_name'}
+reward: 0.49799197912216187
+action:  0
+obs: [1.00000000e+00 4.01606426e-03 3.40112000e+00 9.58202873e+01
+ 5.00502182e+02 4.67406483e+02 1.67581554e+02], reward: 0.49799197912216187, done: False, info: {'info': 'm_name'}
+reward: 0.49799197912216187
+action:  3
+obs: [  1.           1.          16.3575     273.72430556 342.82803195
+ 334.66944189  33.10847977], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  3
+obs: [  1.           0.          22.969      139.53515272 573.33822994
+ 454.99919311 223.42846133], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  0
+obs: [  1.           1.           6.47533    340.38445097 402.49976086
+ 228.29147983 133.08475324], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  3
+obs: [  1.           0.           3.27879     88.8986814  503.00309159
+ 474.79895187 172.6644911 ], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  3
+obs: [  3.           1.          16.3575     272.970705   349.15812235
+ 329.89346891  34.52211903], reward: 0.0010000000474974513, done: False, info: {'info': 'm_name'}
+reward: 0.0010000000474974513
+action:  0
+obs: [  4.           0.996       22.969      134.68610316 573.6786251
+ 459.46462007 224.44130344], reward: 0.0010000000474974513, done: False, info: {'info': 'm_name'}
+reward: 0.0010000000474974513
+action:  3
+obs: [  1.           1.           6.47533    343.29294292 396.92433732
+ 227.39006603 132.24528442], reward: 0.0010000000474974513, done: False, info: {'info': 'm_name'}
+reward: 0.0010000000474974513
+action:  2
+obs: [  4.           1.           3.154       86.55549314 507.60746084
+ 476.68501725 176.69015731], reward: 0.0010000000474974513, done: False, info: {'info': 'm_name'}
+reward: 0.0010000000474974513
+action:  3
+obs: [  3.           1.           3.94662    272.42835998 355.53892123
+ 325.22601605  37.46434527], reward: 0.20399999618530273, done: False, info: {'info': 'm_name'}
+reward: 0.20399999618530273
+action:  1
+obs: [  4.           0.98         9.28275    130.22241694 574.5902018
+ 464.02006867 226.04439823], reward: 0.20399999618530273, done: False, info: {'info': 'm_name'}
+reward: 0.20399999618530273
+action:  3
+HANDOVER nodeID: 3
+----->2 4 3 3
+84.4376 512.227 478.568 180.737 
+HANDOVER nodeID: 4
+----->1 4 2 4
+----->HANDOVER 7.00421 4 1 11
+----->HANDOVER 7.05221 3 2 1
+272.099 361.968 320.672 41.6122 
+HANDOVER nodeID: 1
+----->2 1 10 1
+127.814 578.359 468.993 230.286 
+351.231 397.784 219.34 139.704 
+FAIL nodeID: 3
+82.527 516.848 480.489 184.813 
+FAIL nodeID: 4
+----->HANDOVER 8.03421 1 2 2
+269.421 367.638 319.802 43.6081 
+FAIL nodeID: 1
+125.568 582.149 473.969 234.563 
+HANDOVER nodeID: 2
+----->1 4 1 2
+355.207 398.291 215.31 143.473 
+HANDOVER nodeID: 3
+----->3 2 1 3
+80.8383 521.469 482.447 188.914 
+HANDOVER nodeID: 4
+----->3 1 11 4
+----->HANDOVER 9.00421 2 1 12
+----->HANDOVER 9.00421 3 3 2
+9.46021 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 4 RNTI 13
+259.756 371.248 328.868 38.4889 
+HANDOVER nodeID: 1
+----->3 2 2 1
+123.494 585.959 478.948 238.872 
+359.186 398.839 211.283 147.26 
+FAIL nodeID: 3
+79.3858 526.09 484.441 193.04 
+FAIL nodeID: 4
+----->HANDOVER 10.0162 1 3 4
+250.11 375.087 337.982 35.4694 
+FAIL nodeID: 1
+121.6 589.789 483.93 243.214 
+HANDOVER nodeID: 2
+----->3 1 12 2
+363.167 399.429 207.259 151.063 
+HANDOVER nodeID: 3
+----->1 3 2 3
+78.1826 530.712 486.471 197.189 
+----->HANDOVER 11.0222 3 1 14
+----->HANDOVER 11.0642 2 3 5
+244.961 376.708 343.257 34.4449 
+HANDOVER nodeID: 1
+----->4 3 4 1
+119.896 593.638 488.915 247.585 
+FAIL nodeID: 2
+367.15 400.059 203.238 154.88 
+78.7043 537.551 487.875 202.714 
+HANDOVER nodeID: 4
+----->3 1 13 4
+----->HANDOVER 12.0042 1 4 4
+----->HANDOVER 12.0282 4 3 6
+253.791 370.871 336.481 33.8574 
+FAIL nodeID: 1
+117.575 595.23 492.472 249.738 
+HANDOVER nodeID: 2
+----->2 3 5 2
+371.136 400.731 199.219 158.712 
+HANDOVER nodeID: 3
+----->3 1 14 3
+81.4543 546.36 488.858 209.619 
+FAIL nodeID: 4
+----->HANDOVER 13.0042 2 2 3
+----->HANDOVER 13.0042 3 3 7
+262.626 365.158 329.806 35.5575 
+HANDOVER nodeID: 1
+----->3 4 4 1
+113.458 591.537 492.727 246.699 
+FAIL nodeID: 2
+377.461 399.397 193.791 163.575 
+85.2591 555.204 490.037 216.752 
+HANDOVER nodeID: 4
+----->4 3 6 4
+----->HANDOVER 14.0282 1 3 8
+----->HANDOVER 14.0282 4 4 5
+271.464 359.574 323.238 39.249 
+109.395 587.859 493.028 243.716 
+HANDOVER nodeID: 2
+----->4 2 3 2
+384.948 397.177 187.768 169.098 
+HANDOVER nodeID: 3
+----->1 3 7 3
+90.7594 562.065 489.419 221.88 
+----->HANDOVER 15.1002 2 4 6
+----->HANDOVER 15.1062 3 1 15
+267.694 361.094 326.673 36.8279 
+HANDOVER nodeID: 1
+----->2 3 8 1
+105.39 584.197 493.375 240.79 
+FAIL nodeID: 2
+392.445 395.098 181.877 174.791 
+FAIL nodeID: 3
+97.4521 566.855 486.83 224.901 
+HANDOVER nodeID: 4
+----->1 4 5 4
+----->HANDOVER 16.0042 4 1 16
+----->HANDOVER 16.0462 1 2 4
+262.023 363.745 331.635 33.9264 
+101.452 580.551 493.768 237.924 
+HANDOVER nodeID: 2
+----->1 4 6 2
+399.952 393.16 176.131 180.638 
+HANDOVER nodeID: 3
+----->3 1 15 3
+104.319 571.715 484.358 228.159 
+obs: [4.00000000e+00 2.04000000e-01 1.63575000e+01 3.47258190e+02
+ 3.97319126e+02 2.23371383e+02 1.35953819e+02], reward: 0.20399999618530273, done: False, info: {'info': 'm_name'}
+reward: 0.20399999618530273
+action:  1
+obs: [  4.           1.          12.5636      84.43759215 512.22745645
+ 478.56818672 180.73730275], reward: 0.20399999618530273, done: False, info: {'info': 'm_name'}
+reward: 0.20399999618530273
+action:  0
+obs: [  1.           1.           3.94662    272.0985337  361.96774692
+ 320.67182196  41.61217158], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  4.           1.           9.01009    127.81375614 578.35916778
+ 468.9928641  230.28587997], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  3
+obs: [  4.           0.          12.2366     351.23121789 397.78434938
+ 219.33952625 139.70410984], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  4.           1.          16.3406      82.52696471 516.84788801
+ 480.4888681  184.81253443], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  0
+obs: [  1.           1.          16.3575     269.42122852 367.63782432
+ 319.80226574  43.60807208], reward: 0.24699999392032623, done: False, info: {'info': 'm_name'}
+reward: 0.24699999392032623
+action:  2
+obs: [  4.           1.          -9.25803    125.56797111 582.14880797
+ 473.96884893 234.56253703], reward: 0.24699999392032623, done: False, info: {'info': 'm_name'}
+reward: 0.24699999392032623
+action:  0
+obs: [  2.           1.          12.2366     355.20702512 398.29114195
+ 215.31006752 143.47327305], reward: 0.24699999392032623, done: False, info: {'info': 'm_name'}
+reward: 0.24699999392032623
+action:  2
+obs: [1.00000000e+00 1.20000000e-02 1.63406000e+01 8.08383090e+01
+ 5.21468744e+02 4.82446613e+02 1.88914035e+02], reward: 0.24699999392032623, done: False, info: {'info': 'm_name'}
+reward: 0.24699999392032623
+action:  2
+obs: [  2.           1.          16.3575     259.75560432 371.24841468
+ 328.86811019  38.48885313], reward: 0.24899999797344208, done: False, info: {'info': 'm_name'}
+reward: 0.24899999797344208
+action:  2
+obs: [  4.           1.          -9.76382    123.49394805 585.95872126
+ 478.94792374 238.87248015], reward: 0.24899999797344208, done: False, info: {'info': 'm_name'}
+reward: 0.24899999797344208
+action:  3
+obs: [  2.           1.         -14.9362     359.1855193  398.83934513
+ 211.28314389 147.25985931], reward: 0.24899999797344208, done: False, info: {'info': 'm_name'}
+reward: 0.24899999797344208
+action:  2
+obs: [1.00000000e+00 4.00000000e-03 2.29690000e+01 7.93857913e+01
+ 5.26090013e+02 4.84440973e+02 1.93040129e+02], reward: 0.24899999797344208, done: False, info: {'info': 'm_name'}
+reward: 0.24899999797344208
+action:  2
+obs: [  2.           1.         -14.9362     250.11018767 375.08686637
+ 337.98215194  35.46936813], reward: 0.48899999260902405, done: False, info: {'info': 'm_name'}
+reward: 0.48899999260902405
+action:  2
+obs: [ 1.00000000e+00  8.00000000e-03 -9.76382000e+00  1.21600476e+02
+  5.89788515e+02  4.83929993e+02  2.43213940e+02], reward: 0.48899999260902405, done: False, info: {'info': 'm_name'}
+reward: 0.48899999260902405
+action:  2
+obs: [  3.           0.568       -4.88617    363.16661214 399.42878839
+ 207.25890312 151.06255845], reward: 0.48899999260902405, done: False, info: {'info': 'm_name'}
+reward: 0.48899999260902405
+action:  0
+obs: [1.00000000e+00 4.68000000e-01 1.63575000e+01 7.81825740e+01
+ 5.30711685e+02 4.86471497e+02 1.97189274e+02], reward: 0.48899999260902405, done: False, info: {'info': 'm_name'}
+reward: 0.48899999260902405
+action:  0
+obs: [  3.           1.         -14.9362     244.96072229 376.70793479
+ 343.25708945  34.44491443], reward: 0.6259999871253967, done: False, info: {'info': 'm_name'}
+reward: 0.6259999871253967
+action:  3
+obs: [  1.           0.          16.3575     119.89610942 593.63780371
+ 488.91496565 247.58525791], reward: 0.6259999871253967, done: False, info: {'info': 'm_name'}
+reward: 0.6259999871253967
+action:  2
+obs: [  3.           0.496        3.94662    367.1502191  400.05928946
+ 203.23750458 154.88018363], reward: 0.6259999871253967, done: False, info: {'info': 'm_name'}
+reward: 0.6259999871253967
+action:  2
+obs: [  1.           0.          22.969       78.70431133 537.55116466
+ 487.87519073 202.71420374], reward: 0.6259999871253967, done: False, info: {'info': 'm_name'}
+reward: 0.6259999871253967
+action:  2
+obs: [  3.           1.           3.94662    253.79124991 370.87133593
+ 336.48144335  33.85744598], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  3.           1.          16.3575     117.5747517  595.23041153
+ 492.47219834 249.73773915], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  1.           1.          10.8421     371.13625922 400.73065454
+ 199.21912038 158.71165776], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  2
+obs: [  1.           0.          22.969       81.45433417 546.36017534
+ 488.85796051 209.61939549], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  3
+obs: [  4.           0.           3.94662    262.62592857 365.15799903
+ 329.80635339  35.5575298 ], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  2
+obs: [  3.           1.          10.8421     113.45841953 591.53717411
+ 492.72727852 246.69922237], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  0
+obs: [  1.           1.          16.3575     377.46140345 399.39718197
+ 193.79116443 163.57517122], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  0
+obs: [  3.           1.          22.969       85.25905982 555.20400446
+ 490.03659881 216.75191424], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  3
+obs: [  4.           0.          -9.76382    271.46435298 359.57379974
+ 323.23804929  39.24902497], reward: 0.382999986410141, done: False, info: {'info': 'm_name'}
+reward: 0.382999986410141
+action:  3
+obs: [  2.           1.           3.94662    109.39489604 587.85938241
+ 493.028311   243.71605174], reward: 0.382999986410141, done: False, info: {'info': 'm_name'}
+reward: 0.382999986410141
+action:  3
+obs: [  3.           0.468       16.3575     384.94786889 397.17742932
+ 187.7684667  169.09807138], reward: 0.382999986410141, done: False, info: {'info': 'm_name'}
+reward: 0.382999986410141
+action:  0
+obs: [  3.           1.          10.8421      90.75938685 562.06490837
+ 489.41873819 221.87958171], reward: 0.382999986410141, done: False, info: {'info': 'm_name'}
+reward: 0.382999986410141
+action:  2
+obs: [  3.           1.          -9.76382    267.69440287 361.09424581
+ 326.67344341  36.82790942], reward: 0.14399999380111694, done: False, info: {'info': 'm_name'}
+reward: 0.14399999380111694
+action:  1
+obs: [  2.           1.         -14.9362     105.39028983 584.19732815
+ 493.37521166 240.79028432], reward: 0.14399999380111694, done: False, info: {'info': 'm_name'}
+reward: 0.14399999380111694
+action:  3
+obs: [  3.           0.424        3.94662    392.44492052 395.09760184
+ 181.87738173 174.79096677], reward: 0.14399999380111694, done: False, info: {'info': 'm_name'}
+reward: 0.14399999380111694
+action:  0
+obs: [  4.           1.          10.8421      97.45212393 566.85509377
+ 486.83028628 224.90123271], reward: 0.14399999380111694, done: False, info: {'info': 'm_name'}
+reward: 0.14399999380111694
+action:  0
+obs: [  3.           1.           3.94662    262.02292112 363.74453061
+ 331.63517523  33.9263739 ], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+obs: [  4.           1.         -14.9362     101.45157806 580.55130914
+ 493.76788385 237.9240378 ], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  0
+obs: [  1.           1.          10.8421     399.95196305 393.15992015
+ 176.13111622 180.63778564], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+----->HANDOVER 17.0042 2 1 17
+----->HANDOVER 17.0042 3 3 9
+256.355 366.466 336.622 31.8119 
+HANDOVER nodeID: 1
+----->3 2 4 1
+97.5867 576.922 494.206 235.119 
+396.654 393.517 178.856 177.843 
+FAIL nodeID: 3
+111.329 576.644 482.004 231.643 
+HANDOVER nodeID: 4
+----->3 1 16 4
+----->HANDOVER 18.0402 4 3 11
+----->HANDOVER 18.0582 1 3 10
+250.692 369.257 341.634 30.6478 
+FAIL nodeID: 1
+93.8515 573.374 494.699 232.433 
+390.711 394.496 183.697 172.975 
+HANDOVER nodeID: 3
+----->1 3 9 3
+118.172 583.299 481.384 237.117 
+----->HANDOVER 19.0162 3 1 18
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Starting configuration: 1
+UE 0 position: 281.567:284.708:1.5
+UE 1 position: 386.465:78.3662:1.5
+UE 2 position: 376.075:303.61:1.5
+UE 3 position: 295.4:105.244:1.5
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 2 RNTI 2
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 4 RNTI 1
+0.105214 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 1 RNTI 4
+0.523214 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 3 RNTI 9

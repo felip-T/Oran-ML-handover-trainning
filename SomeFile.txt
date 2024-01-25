@@ -1,0 +1,560 @@
+[0/2] Re-checking globbed directories...
+-- GLOB mismatch!
+[1/2] Re-running CMake...
+-- Using default output directory /home/felipe/Downloads/ns-allinone-3.40/fork/build
+-- [33mProceeding without cmake-format[0m
+-- find_external_library: SQLite3 was found.
+-- [33mHarfbuzz is required by GTK3 and was not found.[0m
+-- LibXML2 was found.
+-- [33mVisualizer: Python Bindings are disabled[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- GSL was found.
+-- [33mdocs: doxygen documentation not enabled due to missing dependencies: doxygen dia[0m
+-- [33mdocs: sphinx documentation not enabled due to missing dependencies: epstopdf dvipng[0m
+-- Precompiled headers were enabled
+-- Processing contrib/ai
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+-- Found pybind11: /usr/include (found version "2.9.1")
+-- Could NOT find Protobuf (missing: Protobuf_DIR)
+-- TensorFlow C library not found, examples using libtensorflow are disabled
+-- PyTorch C++ library not found, examples using libtorch are disabled
+-- RL-TCP pure C++ example disabled
+-- LTE-CQI pure C++ example disabled
+-- protobuf_generate function not found -> use a local copy from /home/felipe/Downloads/ns-allinone-3.40/fork/contrib/ai/protobuf-generate.cmake
+-- Processing contrib/oran
+-- [33mfind_external_library: Torch was not found. Missing headers: "torch/script.h" and missing libraries: "torch".[0m
+-- [33mfind_external_library: OnnxRuntime was not found. Missing headers: "cpu_provider_factory.h" and missing libraries: "onnxruntime".[0m
+-- Processing src/antenna
+-- Processing src/aodv
+-- Processing src/applications
+-- Processing src/bridge
+-- Processing src/brite
+-- [33mfind_external_library: brite was not found. Missing headers: "Brite.h" and missing libraries: "brite".[0m
+-- [33mSkipping src/brite[0m
+-- Processing src/buildings
+-- Processing src/click
+-- [33mfind_external_library: click was not found. Missing headers: "simclick.h" and missing libraries: "nsclick click".[0m
+-- [33mSkipping src/click[0m
+-- Processing src/config-store
+-- Processing src/core
+-- Boost Units have been found.
+-- Processing src/csma
+-- Processing src/csma-layout
+-- Processing src/dsdv
+-- Processing src/dsr
+-- Processing src/energy
+-- Processing src/fd-net-device
+-- Checking for module 'libdpdk'
+--   No package 'libdpdk' found
+-- Processing src/flow-monitor
+-- Processing src/internet
+-- Processing src/internet-apps
+-- Processing src/lr-wpan
+-- Processing src/lte
+-- Processing src/mesh
+-- Processing src/mobility
+-- Processing src/netanim
+-- Processing src/network
+-- Processing src/nix-vector-routing
+-- Processing src/olsr
+-- Processing src/openflow
+-- [33mfind_external_library: openflow was not found. Missing headers: "openflow.h" and missing libraries: "openflow".[0m
+-- [33mSkipping src/openflow[0m
+-- Processing src/point-to-point
+-- Processing src/point-to-point-layout
+-- Processing src/propagation
+-- Processing src/sixlowpan
+-- Processing src/spectrum
+-- Processing src/stats
+-- Processing src/tap-bridge
+-- Processing src/topology-read
+-- Processing src/traffic-control
+-- Processing src/uan
+-- Processing src/virtual-net-device
+-- Processing src/wifi
+-- Processing src/wimax
+-- ---- Summary of ns-3 settings:
+Build profile                 : default
+Build directory               : /home/felipe/Downloads/ns-allinone-3.40/fork/build
+Build with runtime asserts    : [32mON[0m
+Build with runtime logging    : [32mON[0m
+Build version embedding       : OFF (not requested)
+BRITE Integration             : [31mOFF (missing dependency)[0m
+DES Metrics event collection  : OFF (not requested)
+DPDK NetDevice                : OFF (not requested)
+Emulation FdNetDevice         : [32mON[0m
+Examples                      : [32mON[0m
+File descriptor NetDevice     : [32mON[0m
+GNU Scientific Library (GSL)  : [32mON[0m
+GtkConfigStore                : [31mOFF (missing dependency)[0m
+LibXml2 support               : [32mON[0m
+MPI Support                   : OFF (not requested)
+ns-3 Click Integration        : [31mOFF (missing dependency)[0m
+ns-3 OpenFlow Integration     : [31mOFF (missing dependency)[0m
+Netmap emulation FdNetDevice  : [31mOFF (missing dependency)[0m
+PyViz visualizer              : [31mOFF (Python Bindings are disabled)[0m
+Python Bindings               : OFF (not requested)
+SQLite support                : [32mON[0m
+Eigen3 support                : [32mON[0m
+Tap Bridge                    : [32mON[0m
+Tap FdNetDevice               : [32mON[0m
+Tests                         : OFF (not requested)
+
+
+Modules configured to be built:
+ai                        antenna                   aodv                      
+applications              bridge                    buildings                 
+config-store              core                      csma                      
+csma-layout               dsdv                      dsr                       
+energy                    fd-net-device             flow-monitor              
+internet                  internet-apps             lr-wpan                   
+lte                       mesh                      mobility                  
+netanim                   network                   nix-vector-routing        
+olsr                      oran                      point-to-point            
+point-to-point-layout     propagation               sixlowpan                 
+spectrum                  stats                     tap-bridge                
+topology-read             traffic-control           uan                       
+virtual-net-device        vr-app                    wifi                      
+wimax                     
+
+Modules that cannot be built:
+brite                     click                     mpi                       
+openflow                  test                      visualizer                
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/felipe/Downloads/ns-allinone-3.40/fork/cmake-cache
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/model3/CMakeFiles/scratch_model3_model3.dir/train.cc.o
+/home/felipe/Downloads/ns-allinone-3.40/fork/scratch/model3/train.cc: In member function ‘std::vector<ns3::Ptr<ns3::OranCommand> > ns3::OranLmCustomHandover::GetHandoverCommands(ns3::Ptr<ns3::OranDataRepository>, std::vector<ns3::OranLmCustomHandover::UeInfo>, std::vector<ns3::OranLmCustomHandover::EnbInfo>) const’:
+/home/felipe/Downloads/ns-allinone-3.40/fork/scratch/model3/train.cc:285:13: warning: ‘hand’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  285 |             if(hand){
+      |             ^~
+[2/2] Linking CXX executable ../build/scratch/model3/ns3.40-model3-default
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 1 RNTI 1
+0.0202143 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 2 RNTI 2
+0.0202143 /NodeList/9/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 2: successful connection of UE with IMSI 3 RNTI 1
+0.0202143 /NodeList/9/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 2: successful connection of UE with IMSI 4 RNTI 2
+13.4933 277.967 149.134 
+1
+2
+3
+HANDOVER
+----->2 1 1 1
+60.7715 204.229 206.701 
+1
+2
+3
+HANDOVER
+----->2 1 2 2
+120 145 260 
+1
+2
+3
+HANDOVER
+----->3 2 1 3
+233.279 31.7501 367.505 
+1
+2
+3
+HANDOVER
+----->3 2 2 4
+----->HANDOVER 3.00421 3 3 1
+----->HANDOVER 3.02221 2 2 4
+----->HANDOVER 3.14821 4 3 2
+----->HANDOVER 3.16021 1 2 3
+15.5097 279.469 149.429 
+1
+2
+3
+61.8428 203.161 207.795 
+1
+2
+3
+120 145 260 
+1
+2
+3
+234.921 30.1474 369.255 
+1
+2
+3
+FAIL nodeID: 4
+17.6257 280.985 149.762 
+1
+2
+3
+HANDOVER
+----->3 2 3 1
+62.9157 202.093 208.889 
+1
+2
+3
+HANDOVER
+----->1 2 4 2
+120 145 260 
+1
+2
+3
+HANDOVER
+----->1 3 1 3
+236.565 28.563 371.005 
+1
+2
+3
+HANDOVER
+----->1 3 2 4
+----->HANDOVER 5.00421 2 1 3
+----->HANDOVER 5.00421 3 1 4
+----->HANDOVER 5.04621 4 1 5
+----->HANDOVER 5.19021 1 3 3
+19.8094 282.512 150.133 
+1
+2
+3
+63.9902 201.025 209.983 
+1
+2
+3
+120 145 260 
+1
+2
+3
+238.21 27 372.755 
+1
+2
+3
+22.0406 284.053 150.542 
+1
+2
+3
+HANDOVER
+----->2 3 3 1
+65.0661 199.958 211.078 
+1
+2
+3
+HANDOVER
+----->2 1 3 2
+121.385 143.616 261.101 
+1
+2
+3
+HANDOVER
+----->2 1 4 3
+239.857 25.4623 374.506 
+1
+2
+3
+HANDOVER
+----->3 1 5 4
+----->HANDOVER 7.00421 3 2 7
+----->HANDOVER 7.02221 4 3 4
+----->HANDOVER 7.04621 1 2 5
+7.46021 /NodeList/8/DeviceList/0/LteEnbRrc/ConnectionEstablished eNB CellId 1: successful connection of UE with IMSI 2 RNTI 6
+24.3063 285.605 150.988 
+1
+2
+3
+FAIL nodeID: 1
+66.1434 198.892 212.173 
+1
+2
+3
+FAIL nodeID: 2
+123.012 141.995 262.397 
+1
+2
+3
+241.505 23.9548 376.256 
+1
+2
+3
+FAIL nodeID: 4
+26.5977 287.169 151.471 
+1
+2
+3
+67.2221 197.826 213.268 
+1
+2
+3
+124.641 140.377 263.697 
+1
+2
+3
+HANDOVER
+----->3 2 7 3
+243.155 22.4837 378.006 
+1
+2
+3
+----->HANDOVER 9.04621 3 3 5
+28.9086 288.744 151.991 
+1
+2
+3
+68.302 196.761 214.363 
+1
+2
+3
+126.273 138.761 265.002 
+1
+2
+3
+FAIL nodeID: 3
+244.807 21.0565 379.757 
+1
+2
+3
+31.2348 290.332 152.547 
+1
+2
+3
+69.3831 195.696 215.458 
+1
+2
+3
+HANDOVER
+----->2 1 6 2
+127.906 137.147 266.312 
+1
+2
+3
+246.46 19.6829 381.507 
+1
+2
+3
+----->HANDOVER 11.1242 2 2 8
+33.573 291.93 153.139 
+1
+2
+3
+70.4654 194.632 216.554 
+1
+2
+3
+FAIL nodeID: 2
+129.542 135.535 267.626 
+1
+2
+3
+HANDOVER
+----->2 3 5 3
+248.114 18.3747 383.258 
+1
+2
+3
+----->HANDOVER 12.0042 3 2 9
+35.921 293.54 153.767 
+1
+2
+3
+71.5488 193.569 217.65 
+1
+2
+3
+HANDOVER
+----->3 2 8 2
+131.179 133.926 268.945 
+1
+2
+3
+249.77 17.147 385.008 
+============================================================================================
+Device set to : NVIDIA GeForce MX110
+============================================================================================
+ns3ai_utils: Experiment initialized
+ns3ai_utils: Running ns-3 with:  ./ns3 run model3 -- --use-train=true --sim-time=20
+obs_dim:  Box(-500.0, 1000.0, (7,), float64)
+action:  1
+obs: [  1.          60.77106619   0.23581637   0.          60.77152372
+ 204.22906996 206.70122703], reward: 1.0, done: False, info: {'info': 'm_name'}
+reward: 1.0
+action:  1
+obs: [  2. 120.   0.   0. 120. 145. 260.], reward: 1.0, done: False, info: {'info': 'm_name'}
+reward: 1.0
+action:  2
+obs: [  2.         233.2755005    1.27463467   0.         233.27898283
+  31.75009546 367.50528008], reward: 1.0, done: False, info: {'info': 'm_name'}
+reward: 1.0
+action:  2
+obs: [  1.         -14.41044486   5.73501968   0.          15.50971863
+ 279.46929554 149.42907529], reward: 0.9327309131622314, done: False, info: {'info': 'm_name'}
+reward: 0.9327309131622314
+action:  0
+obs: [1.00000000e+00 6.18402474e+01 5.62805712e-01 8.03212851e-03
+ 6.18428083e+01 2.03160532e+02 2.07794979e+02], reward: 0.9327309131622314, done: False, info: {'info': 'm_name'}
+reward: 0.9327309131622314
+action:  0
+obs: [  2.         120.           0.           0.26104418 120.
+ 145.         260.        ], reward: 0.9327309131622314, done: False, info: {'info': 'm_name'}
+reward: 0.9327309131622314
+action:  1
+obs: [  2.         234.91325075   1.91195201   0.         234.92103129
+  30.14743838 369.25527961], reward: 0.9327309131622314, done: False, info: {'info': 'm_name'}
+reward: 0.9327309131622314
+action:  0
+obs: [  2.         -15.88059315   7.64669291   1.          17.62569577
+ 280.98466065 149.7620158 ], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+obs: [  2.          62.90942853   0.88979505   1.          62.91572087
+ 202.09253032 208.88898916], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  0
+obs: [  3. 120.   0.   1. 120. 145. 260.], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  0
+obs: [  3.         236.55100101   2.54926935   1.         236.56473712
+  28.5629886  371.00534897], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  0
+obs: [  2.         -17.35074144   9.55836614   1.          19.80935616
+ 282.51248389 150.13296065], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  1
+obs: [  2.          63.9786097    1.21678439   1.          63.99017943
+ 201.02507287 209.98325236], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  1
+obs: [  3. 120.   0.   1. 120. 145. 260.], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+obs: [  3.         238.18875126   3.18658668   1.         238.21006603
+  26.99995174 372.75548715], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+obs: [  3.         -18.82088973  11.47003936   1.          22.04059194
+ 284.05256423 150.5416289 ], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  1
+obs: [1.00000000e+00 6.50477909e+01 1.54377373e+00 8.00000000e-03
+ 6.50661074e+01 1.99958169e+02 2.11077765e+02], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  1
+obs: [ 1.00000000e+00  1.21384586e+02 -4.64670683e-01  2.00000000e-02
+  1.21385475e+02  1.43616166e+02  2.61101130e+02], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  1
+obs: [  1.         239.82650151   3.82390402   1.         239.85698461
+  25.46227147 374.50569319], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  2
+obs: [  3.         -20.29103801  13.38171259   1.          24.30630485
+ 285.6047034  150.98771424], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  1
+obs: [  1.          66.11697204   1.87076307   0.          66.14343313
+ 198.89182629 212.17252332], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  1
+obs: [  1.         123.00815748  -1.00954579   0.         123.01230015
+ 141.99543135 262.39678852], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  0
+obs: [  1.         241.46425176   4.46122136   1.         241.50546034
+  23.95483127 376.25596615], reward: 0.5, done: False, info: {'info': 'm_name'}
+reward: 0.5
+action:  2
+obs: [  2.         -21.7611863   15.29338582   1.          26.59768559
+ 287.16870585 151.47088608], reward: 0.3700000047683716, done: False, info: {'info': 'm_name'}
+reward: 0.3700000047683716
+action:  1
+obs: [  1.          67.18615322   2.19775241   0.472       67.22208937
+ 197.82605515 213.26752344], reward: 0.3700000047683716, done: False, info: {'info': 'm_name'}
+reward: 0.3700000047683716
+action:  0
+obs: [ 2.00000000e+00  1.24631729e+02 -1.55442089e+00  4.80000000e-02
+  1.24641422e+02  1.40376877e+02  2.63697203e+02], reward: 0.3700000047683716, done: False, info: {'info': 'm_name'}
+reward: 0.3700000047683716
+action:  2
+obs: [  3.         243.10200201   5.09853869   1.         243.15546154
+  22.48371439 378.00630511], reward: 0.3700000047683716, done: False, info: {'info': 'm_name'}
+reward: 0.3700000047683716
+action:  2
+obs: [  2.         -23.23133459  17.20505905   1.          28.9086313
+ 288.74437881 151.99079075], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  1
+obs: [  1.          68.25533439   2.52474175   0.          68.3020131
+ 196.76086442 214.36276168], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  0
+obs: [ 2.00000000e+00  1.26255301e+02 -2.09929600e+00  2.80000000e-02
+  1.26272753e+02  1.38760580e+02  2.65002304e+02], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  2
+obs: [  3.         244.73975226   5.73585603   1.         244.80695738
+  21.05653539 379.75670913], reward: 0.49300000071525574, done: False, info: {'info': 'm_name'}
+reward: 0.49300000071525574
+action:  2
+obs: [  2.         -24.70148288  19.11673227   1.          31.23479965
+ 290.33153227 152.54705265], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  1.          69.32451556   2.85173109   0.          69.38314513
+ 195.69626359 215.45823442], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  3.         127.87887303  -2.64417111   1.         127.90620708
+ 137.14661899 266.3120221 ], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  2
+obs: [  3.         246.37750251   6.37317337   1.         246.4599178
+  19.68285425 381.50717734], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  2
+obs: [  2.         -26.17163116  21.0284055    1.          33.57302661
+ 291.92997899 153.13927562], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  1.          70.39369673   3.17872043   0.          70.46542984
+ 194.63226232 216.5539381 ], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  3.         129.50244488  -3.18904621   1.         129.54170466
+ 135.53507833 267.6262894 ], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  1
+obs: [  3.         248.01525276   7.0104907    1.         248.11431354
+  18.37467329 383.25770884], reward: 0.25, done: False, info: {'info': 'm_name'}
+reward: 0.25
+action:  2
+obs: [  2.         -27.64177945  22.94007873   1.          35.92095744
+ 293.53953446 153.76704413], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  1
+obs: [  2.          71.4628779    3.50570978   1.          71.54881494
+ 193.56887051 217.64986922], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+obs: [  3.         131.12601674  -3.73392132   1.         131.1791692
+ 133.92604513 268.94503934], reward: 0.0, done: False, info: {'info': 'm_name'}
+reward: 0.0
+action:  2
+1
+2
+3
+----->HANDOVER 13.0942 2 3 6
+38.2768 295.16 154.43 
+1
+2
+3
+72.6333 192.506 218.746 
+1
+2
+3
+FAIL nodeID: 2
+132.819 132.32 270.268 
+1
+2
+3
+HANDOVER
+----->3 2 9 3
+251.427 16.0183 386.759 
+1
+2
+3
